@@ -87,6 +87,9 @@ fieldset legend{
     float: right !important;
 }
 .seccionComments{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     border: 1px dashed #6278B0;
     padding: 10px;
 }
@@ -188,4 +191,16 @@ input[type=submit]{
 label{
     display: block;
     margin: 15px;
+}
+
+.user-name{
+    margin: 5px;
+    color: #12bf88;
+}
+
+.comment {
+    margin: 0;
+    padding: 5px;
+    font-size: 10px;
+    color: gray;
 }
